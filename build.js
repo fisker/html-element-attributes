@@ -1,5 +1,4 @@
 import fs from 'node:fs/promises'
-import fetch from 'node-fetch'
 import {fromHtml} from 'hast-util-from-html'
 import {selectAll} from 'hast-util-select'
 import {toString} from 'hast-util-to-string'
